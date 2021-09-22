@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*, :after, :before {
+    box-sizing: border-box;
+}
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5); 
+}  
+.section-3{
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+} 
+
+.card-body h5{
+    text-align: center !important;
+}
+.card-body p{
+    text-align: center !important;
+}
+.card-body i {
+    text-align: center !important;
+}
+.justify-content-center {
+    justify-content: center !important;
+} 
+.bi-star-fill::before {
+    content: "";
+    clear: both;
+}  
+.d-flex{
+    display: flex !important;
+    justify-content: flex-end;
+}
+.fas fa-shopping-basket{
+    margin-right: 1px !important;
+}
+.buttum{
+    justify-content: flex-end;
+}
+.footer {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
+.py-5 {
+    padding-top: 3rem !important;
+    padding-bottom: 3rem !important;
+}
